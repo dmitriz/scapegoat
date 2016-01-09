@@ -4,7 +4,7 @@
   "description": "A small library providing utility methods to escape and unescape HTML entities",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,12 @@
     "url": "https://github.com/brentertz/scapegoat/issues"
   },
   "devDependencies": {
-    "mocha": "~1.16.2",
-    "chai": "~1.8.1"
-  }
+    "chai": "^1.8.1",
+    "mocha": "^1.16.2"
+  },
+  "homepage": "https://github.com/brentertz/scapegoat#readme",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
